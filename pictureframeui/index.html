@@ -28,8 +28,25 @@
         <![endif]-->
 
         <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
-P>
-         
+        <div ng-app="">
+            <input type="url" ng-model="data.woot"/>
+            <!-- Shirt Pictures --> 
+            <ul class="thumbnails">
+                <li class="span3">
+                    <h3>Woot<h3>
+                    <img src="{{data.woot}}" class="img-polaroid">
+                </li>
+                <li class="span3">
+                    <h3>Tee Fury<h3>
+                    <img src="{{data.woot}}" class="img-polaroid">
+                </li>
+                <li class="span3">
+                    <h3>Qwertee<h3>
+                    <img src="{{data.woot}}" class="img-polaroid">
+                </li>
+
+            </ul>
+            
 
         </div> <!-- /container -->
 
